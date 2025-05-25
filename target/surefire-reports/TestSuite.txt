@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.314 s <<< FAILURE! - in TestSuite
+toVerifyLoginUsingCorrectCredentials(testcases.LoginTestCase)  Time elapsed: 13.343 s  <<< FAILURE!
+org.openqa.selenium.support.ui.UnexpectedTagNameException: 
+Element should have been "select" but was "div"
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: driver.version: unknown
+	at testcases.LoginTestCase.toVerifyLoginUsingCorrectCredentials(LoginTestCase.java:18)
+
