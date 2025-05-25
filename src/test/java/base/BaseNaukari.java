@@ -1,5 +1,7 @@
 package base;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
@@ -19,6 +21,8 @@ public class BaseNaukari {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.naukri.com/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+
 		
 		
 	}
